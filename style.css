@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d8cfbc;
+    font-family: Outfit;
+}
+
+.header{
+    text-align: center;
+    font-size: 20px;
+}
+.header h1{
+    color: #d8cfbc;
+    filter: drop-shadow(1px 5px 0px black);
+}
+.span{
+    font-size: 70px;
+    color: #d8cfbc;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(1px 5px black);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.img-bg{
+    background-image: url("picture/texture.jpg");
+    padding: 20px;
+}
+.main-2{
+    background-color: #fffbf4;
+}
+footer{
+    background-color: #565449;
+    color: #fffbf4;
+    padding: 30px;
+    text-align: right;
+}
